@@ -1,10 +1,10 @@
 package edu.guet.dept7;
 
 public class Human {
-	String name;
-	String sex;
-	int age;
-	String addr;
+	public String name;
+	public String sex;
+	public int age;
+	public String addr;
 	
 	//成员方法
 	void work(){
@@ -15,7 +15,7 @@ public class Human {
 		System.out.println("我在吃饭");
 	}
 	
-	String getState(int time){
+	public String getState(int time){
 		String state = null;
 		if(time >=0 && 24 >= time){
 			if(time >= 0 && time < 17)

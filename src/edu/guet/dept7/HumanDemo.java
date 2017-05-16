@@ -1,5 +1,7 @@
 package edu.guet.dept7;
 
+import java.lang.*;
+
 public class HumanDemo {
 
 	public static void main(String[] args) {
